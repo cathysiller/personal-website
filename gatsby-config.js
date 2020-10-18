@@ -1,4 +1,5 @@
 const dotenv = require('dotenv')
+
 dotenv.config()
 
 module.exports = {
@@ -10,12 +11,5 @@ module.exports = {
     siteUrl: `https://www.catherine-siller.com`,
   },
   plugins: [
-    {
-      resolve: `gatsby-source-contentful`,
-      options: {
-        spaceId: process.env.CONTENTFUL_SPACEID,
-        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
-      },
-    },
   ],
 }
