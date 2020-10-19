@@ -1,0 +1,5 @@
+
+    const cmd = require("/Users/catherine/Desktop/personalprojs/personal-website/node_modules/gatsby/dist/commands/develop-process.js");
+    const args = {"_":["develop"],"verbose":false,"no-color":false,"no-colors":false,"noColors":false,"noColor":false,"H":"localhost","host":"localhost","p":"8000","port":60019,"c":"","cert-file":"","certFile":"","k":"","key-file":"","keyFile":"","$0":"gatsby","directory":"/Users/catherine/Desktop/personalprojs/personal-website","browserslist":[">0.25%","not dead"],"sitePackageJson":{"dependencies":{"contentful":"^7.14.7","gatsby":"^2.24.78","gatsby-cli":"^2.12.108","gatsby-source-contentful":"^2.3.53","react":"^16.14.0","react-dom":"^16.14.0","yarn":"^1.22.10"}},"report":{},"useYarn":true,"proxyPort":8000,"ssl":null,"debugInfo":null};
+    cmd(args);
+  
